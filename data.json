@@ -1,0 +1,34 @@
+{
+    "name": "Jackson",
+    "avatar": "https://cdn.discordapp.com/avatars/332027111319797761/390f5a7018c3de25f7439cce81fa2717.png",
+    "socials": [
+        {
+            "title": "Twitter",
+            "href": "https://twitter.com/Snowz2k",
+            "image": "https://cdn.discordapp.com/avatars/332027111319797761/390f5a7018c3de25f7439cce81fa2717.png"
+        },
+        {
+            "title": "Github",
+            "href": "https://github.com/SnowzNZ"
+        }
+    ],
+    "links": [
+        {
+            "title": "Example",
+            "href": "https://example.com/",
+            "image": "https://cdn.discordapp.com/avatars/332027111319797761/390f5a7018c3de25f7439cce81fa2717.png"
+        },
+        {
+            "title": "Try It and See",
+            "href": "https://tryitands.ee/"
+        },
+        {
+            "title": "Google",
+            "href": "https://google.com/"
+        },
+        {
+            "title": "GitHub",
+            "href": "https://github.com/"
+        }
+    ]
+}
