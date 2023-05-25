@@ -52,12 +52,12 @@ export default function Home() {
         <LinkCard key={link.href} {...link} />
       ))}
       <div className="flex items-center gap-4 mt-8">
-        {data.socials.map((link) => {
+        {data.socials.map((link, index) => {
           if (link.href.includes("twitter")) {
-            return <IconBrandTwitter color="white" size={35} />;
+            return <IconBrandTwitter key={index} color="white" size={35} />;
           }
           if (link.href.includes("github")) {
-            return <IconBrandGithub color="white" size={35} />;
+            return <IconBrandGithub key={index} color="white" size={35} />;
           }
         })}
       </div>
