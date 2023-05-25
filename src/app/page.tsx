@@ -1,5 +1,6 @@
 import Image from "next/image";
 import data from "../../data.json";
+import { get } from "@vercel/edge-config";
 import Link from "next/link";
 import { IconBrandTwitter, IconBrandGithub } from "@tabler/icons-react";
 
@@ -37,10 +38,11 @@ function LinkCard({
   );
 }
 
-export default function Home() {
+export default function HomePage() {
   return (
     <div className="flex items-center flex-col mx-auto w-full justify-center mt-16 px-8">
       <Image
+        priority
         className="rounded-full"
         alt={data.name}
         src={data.avatar}
@@ -51,15 +53,22 @@ export default function Home() {
       {data.links.map((link) => (
         <LinkCard key={link.href} {...link} />
       ))}
-      <div className="flex items-center gap-4 mt-8">
-        {data.socials.map((link, index) => {
-          if (link.href.includes("twitter")) {
-            return <IconBrandTwitter key={index} color="white" size={35} />;
-          }
-          if (link.href.includes("github")) {
-            return <IconBrandGithub key={index} color="white" size={35} />;
-          }
-        })}
+      <div className="flex items-center gap-4 mt-8 text-white">
+        {data.socials.map((social) => (
+          <a
+            aria-label={`${social.title} link`}
+            key={social.href}
+            href={social.href}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {social.href.includes("twitter") ? (
+              <IconBrandTwitter color="white" size={35} />
+            ) : social.href.includes("github") ? (
+              <IconBrandGithub color="white" size={35} />
+            ) : null}
+          </a>
+        ))}
       </div>
     </div>
   );
