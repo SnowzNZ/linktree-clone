@@ -1,11 +1,13 @@
 import "./globals.css";
+import data from "../../data.json";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Snowz's Links",
-  description: "LinkTree clone made with Next.js and Tailwind CSS",
+  title: `${data.name}'s Links`,
+  description:
+    "A self-hostable Linktree clone, made with Next.js, TypeScript, and Tailwind CSS.",
 };
 
 export default function RootLayout({

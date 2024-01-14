@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-        domains: ['cdn.discordapp.com']
-    }
-}
+  /* config options here */
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

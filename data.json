@@ -1,34 +1,46 @@
 {
-    "name": "Snowz",
-    "avatar": "https://cdn.discordapp.com/avatars/332027111319797761/390f5a7018c3de25f7439cce81fa2717.png",
-    "socials": [
-        {
-            "title": "Twitter",
-            "href": "https://twitter.com/Snowz2k",
-            "image": "https://cdn.discordapp.com/avatars/332027111319797761/390f5a7018c3de25f7439cce81fa2717.png"
-        },
-        {
-            "title": "Github",
-            "href": "https://github.com/SnowzNZ"
-        }
-    ],
-    "links": [
-        {
-            "title": "Example with Icon",
-            "href": "https://example.com/",
-            "image": "https://cdn.discordapp.com/avatars/332027111319797761/390f5a7018c3de25f7439cce81fa2717.png"
-        },
-        {
-            "title": "Try It and See",
-            "href": "https://tryitands.ee/"
-        },
-        {
-            "title": "Google",
-            "href": "https://google.com/"
-        },
-        {
-            "title": "GitHub",
-            "href": "https://github.com/"
-        }
-    ]
+  "name": "Snowz",
+  "avatar": "https://cdn.discordapp.com/avatars/665677266772033593/8e79a7022b6eb330db9b353220339d72?size=1024",
+  "socials": [
+    {
+      "title": "Twitter",
+      "href": "https://twitter.com"
+    },
+    {
+      "title": "GitHub",
+      "href": "https://github.com/"
+    },
+    {
+      "title": "Instagram",
+      "href": "https://instagram.com/"
+    },
+    {
+      "title": "YouTube",
+      "href": "https://youtube.com/"
+    }
+  ],
+  "links": [
+    {
+      "title": "Amazon Wishlist",
+      "href": "https://amazon.com/",
+      "image": "https://static.wixstatic.com/media/d2252d_4c1a1bda6a774bd68f789c0770fd16e5~mv2.png"
+    },
+    {
+      "title": "Project 1",
+      "href": "https://github.com/example/test"
+    },
+    {
+      "title": "Project 2",
+      "href": "https://github.com/example/test"
+    },
+    {
+      "title": "Project 3",
+      "href": "https://github.com/example/test"
+    },
+    {
+      "title": "Keyboard",
+      "href": "https://www.amazon.com/s?k=keyboard",
+      "image": "https://m.media-amazon.com/images/I/81yd9W+0doL._AC_SX466_.jpg"
+    }
+  ]
 }
